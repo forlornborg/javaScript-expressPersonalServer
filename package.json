@@ -1,0 +1,18 @@
+{
+  "name": "express-server",
+  "version": "1.0.0",
+  "description": "localhost server to test serverside dev on multiple projects",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Zachary LeFevre",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
